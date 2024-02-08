@@ -47,7 +47,9 @@ Now, let's make some user scenarios possible in the application.
 flowchart LR
     customer(("Customer 🧑"))
     employee(("Employee 👷‍♂️"))
-    
+
+    receive_notifications("Receive notifications")
+
     creating_orders("Creating orders")
     editing_orders("Editing orders")
     pay_order("Pay for order")
@@ -58,8 +60,6 @@ flowchart LR
     login("Login")
     deleting_account("Deleting account")
     editing_account("Editing account")
-    
-    receive_notifications("Receive notifications")
     
     managing_orders("Managing orders")
     managing_orders-->creating_orders
