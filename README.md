@@ -83,3 +83,16 @@ flowchart LR
 
 
 ```
+
+# System context
+
+Let's see what is in the system context - an abstract view on all parts.
+
+![c4-context](https://github.com/xeo545x39/cake-ai/assets/10615919/d8e944b6-0be9-4e58-a617-e9590a5d90e3)
+
+# Containers
+
+In a little deeper layer we can see one of systems - Ordering System in more detailed view.
+
+![c4-container](https://github.com/xeo545x39/cake-ai/assets/10615919/6b1c177b-7003-46ca-b103-e11096bd4547)
+
