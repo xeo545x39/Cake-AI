@@ -1,6 +1,6 @@
 # Cake AI
 
-![3DpUB9AI4-U](https://github.com/xeo545x39/cake-ai/assets/10615919/0c968cf2-d592-464f-9a93-faded466b3b7)
+![H2A72mBnIoo](https://github.com/xeo545x39/cake-ai/assets/10615919/521ec5e2-d1f9-409a-8f6e-30066bd61fa5)
 
 A demo project for system architecture desing and development
 
