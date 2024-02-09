@@ -91,11 +91,11 @@ flowchart LR
 
 According to UK market in 2012 there were 139 million kilograms of cake sold. Assuming that a medium-size typical weight is around 2kg it gives us almost 70 millions of cakes per year = about 6 million per month = about 200 thousands per day.
 
-For our example let's consider that our company want to share 20% of market from which 10% are internet sales. It gives us about 20k orders per day, so about 14 per minute.
+For our example let's consider that our company want to share 20% of market from which 10% are internet sales. It gives us about 20k orders per day, so about **14 per minute**. Per year it would be **7,3 million of orders**.
 
-We are assuming that the number of 20k orders is a result of 200k visitors, so 10% of site visitors will be our customers.
+We are assuming that the number of 20k orders is a result of **200k visitors**, so 10% of site visitors will be our customers.
 
-Also we know that baking process will start only for fixed amount of orders, when ovens are full, so we can use maximum eco-approach for power compsumption. That means that we should be ready for some internal data peaks - when ovens finish baking process there are many messages published about process finished simultaneously. 
+Also we know that baking process will start only for fixed amount of orders, when ovens are full, so we can use **maximum eco-approach for power compsumption**. That means that we should be ready for some **internal data peaks** - when ovens finish baking process there are many messages published about process finished simultaneously. 
 
 # Architecture
 
