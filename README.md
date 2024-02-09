@@ -87,13 +87,36 @@ flowchart LR
 
 ```
 
-# System context
+# Business considerations
+
+According to UK market in 2012 there were 139 million kilograms of cake sold. Assuming that a medium-size typical weight is around 2kg it gives us almost 70 millions of cakes per year = about 6 million per month = about 200 thousands per day.
+
+For our example let's consider that our company want to share 20% of market from which 10% are internet sales. It gives us about 20k orders per day, so about 14 per minute.
+
+We are assuming that the number of 20k orders is a result of 200k visitors, so 10% of site visitors will be our customers.
+
+Also we know that baking process will start only for fixed amount of orders, when ovens are full, so we can use maximum eco-approach for power compsumption. That means that we should be ready for some internal data peaks - when ovens finish baking process there are many messages published about process finished simultaneously. 
+
+# Architecture
+
+We can extract some key architecture parameters according to business requirements:
+1. Maintainability and Extensibility
+   - as baking process is not constant - it can change in any time due to new food components, due to machinery replacement or just recipes for pre-ingredients are changed - the system should be adjustable to these conditions
+2. Security
+   - because we act with food and meals the system should be secured enough to prevent some unauthorized access and operations
+3. Performance
+   - when talking about real world machinery and production process of cakes we should take care of our system be fast enough to not block physical devices
+4. Scalability
+   - knowing the fact that there are some periods in which customer order more than usual (e.g. national celebrations, summer etc.), the system should handle scalability properly to handle all customers requests
+
+
+## System context
 
 Let's see what is in the system context - an abstract view on all parts.
 
 ![c4-context](https://github.com/xeo545x39/cake-ai/assets/10615919/d8e944b6-0be9-4e58-a617-e9590a5d90e3)
 
-# Containers
+## Containers
 
 In a little deeper layer we can see one of systems - Ordering System - a system which customer can make an order in.
 
