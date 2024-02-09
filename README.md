@@ -95,7 +95,11 @@ Let's see what is in the system context - an abstract view on all parts.
 
 # Containers
 
-In a little deeper layer we can see one of systems - Ordering System in more detailed view.
+In a little deeper layer we can see one of systems - Ordering System - a system which customer can make an order in.
 
 ![c4-container](https://github.com/xeo545x39/cake-ai/assets/10615919/6b1c177b-7003-46ca-b103-e11096bd4547)
+
+Now let's focues on Baking System. Here operations connected with real world processes are performed like baking, storing things, instrumenting robots.
+
+![c4-container2 drawio](https://github.com/xeo545x39/cake-ai/assets/10615919/d378d792-accf-4c1e-b9dc-46c41a209fec)
 
