@@ -2,7 +2,7 @@
 
 ![H2A72mBnIoo](https://github.com/xeo545x39/cake-ai/assets/10615919/521ec5e2-d1f9-409a-8f6e-30066bd61fa5)
 
-A demo project for system architecture desing and development
+A demo project for system architecture design and development
 
 The purpose of project is just to show some approach for system design, development and give some examples.
 
